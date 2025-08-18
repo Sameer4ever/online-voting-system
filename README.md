@@ -5,7 +5,8 @@
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.1.5-brightgreen)](https://spring.io/projects/spring-boot)
 [![Swagger](https://img.shields.io/badge/Documentation-Swagger-85EA2D)](http://localhost:8080/swagger-ui.html)
 
-A secure digital voting platform with **full API documentation** via Swagger UI. React frontend coming soon!
+A secure digital voting platform with **full API documentation** via Swagger UI.  
+⚡ React frontend coming soon!
 
 ---
 
@@ -23,16 +24,12 @@ A secure digital voting platform with **full API documentation** via Swagger UI.
 
 ## 🛠️ Tech Stack
 
-**Backend Core**:
-- Java 17 (LTS)
+- Swagger UI - Interactive API documentation
+- Java 17
 - Spring Boot 3.1.5
-- Spring Security + JWT
-- MongoDB Atlas
-
-**Developer Tools**:
-- Swagger UI (Interactive API Docs)
-- Lombok
-- Maven
+- MongoDB
+- JWT Authentication
+- Lombok + Maven  
 
 ---
 
@@ -45,3 +42,18 @@ cd online-voting-system
 
 # 2. Run backend (requires Java 17+)
 mvn spring-boot:run
+```
+
+---
+
+## 🖥️ API Demo (via Swagger)
+
+👉 Pro Tip: Click **"Authorize"** button to set JWT token.  
+🔗 Access here: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+---
+
+## 📜 License
+
+"Democracy needs transparency – one secure vote at a time."  
+MIT Licensed | © 2025 **Sameer Ahmed Malik**
