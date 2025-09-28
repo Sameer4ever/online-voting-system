@@ -46,10 +46,6 @@ mvn spring-boot:run
 
 ---
 
-## 🖥️ API Demo (via Swagger)
-
-👉 Pro Tip: Click **"Authorize"** button to set JWT token.  
-🔗 Access here: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ---
 
